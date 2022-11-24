@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Accommodate from './chapter_07/Accommodate';
+import LandingPage from './chapter_09/LandingPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Accommodate />
+  <>
+    <LandingPage />
+  </>
 );
 
 
