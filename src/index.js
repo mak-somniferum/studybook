@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import SignUp from './chapter_11/SignUp';
+import Profile from './chapter_11/Profile';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <SignUp />
+    <Profile />
   </>
 );
 
