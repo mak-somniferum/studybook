@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Profile from './chapter_11/Profile';
+import ShareValue from './chapter_12/ShareValue';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <Profile />
+    <ShareValue />
   </>
 );
 
