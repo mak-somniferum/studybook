@@ -12,7 +12,7 @@ const MainTitleText = styled.h1`
 
 function App(props) {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <MainTitleText>미니 블로그</MainTitleText>
       <Routes>
         <Route index element={<MainPage />} />
